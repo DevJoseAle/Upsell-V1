@@ -1,0 +1,133 @@
+/* -----     All Html ----- */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Comfortaa', cursive;
+    
+}
+body{
+    background: rgb(254,231,211);
+    background: linear-gradient(90deg, rgba(254,231,211,1) 0%, rgba(255,255,255,1) 53%, rgba(255,230,210,1) 100%);
+}
+/* ----- Header ----- */
+#title{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    font-size: 45px;    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 13px;
+    background-color: #24252a;
+    color: #FF7217;
+
+}
+
+/* -----navigation----- */  
+
+.navigation_bar{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navigation_bar li{
+    display: inline-block;
+    padding: 10px;
+    list-style: bold;
+}
+.navigation_bar li a{
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    color: #FF7217;
+    font-size: 21px;
+
+
+}
+.navigation_bar li a:hover{
+    background-color: #FF7217;
+    color: blanchedalmond;
+}
+.countrynavbar{
+    padding: 10px;
+}
+.countrynavbar a{
+    color: #FF7217;
+    font-family: 'Comfortaa', cursive;
+}
+.countrynavbar button{
+    padding: 3px 15px;
+    background-color: #FF7217;
+    border: none; 
+    border-radius: 50px;
+    cursor: pointer; 
+}
+
+/* -----Presentation------ */
+.presentation{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background: rgb(254,231,211);
+    background: linear-gradient(90deg, rgba(254,231,211,1) 0%, rgba(255,255,255,1) 53%, rgba(255,230,210,1) 100%);
+
+}
+
+.presentation_div_text{
+    width: 50%;
+    height: 500px;
+    margin: 320px 5px 0 10px;
+}
+.presentation_div_text h1{
+    font-size: 45px;
+}
+.presentation_div_text h1 span{
+    text-decoration: underline solid #FF7217 5px ;
+}
+#promote{
+    padding: 20px;
+}
+.presentation_div_img{
+    width: 50%;
+    height: 700px;
+    margin: 40px 0 0 0;
+}
+/* Presentation buttons. */
+
+.presentation_div_buttons{
+    display: flex;
+}
+.presentation_button_sign{
+    width: 180px;
+    height: 45px;
+    background-color: #FF7217;
+    border-radius: 50px;
+    border: solid rgb(119, 28, 0);
+}
+#sign_up{
+    margin: 12px;
+}
+
+.presentation_button_sign:hover{
+    background-color: #bb5815;
+    border-radius: 50px;
+    border: solid rgb(119, 28, 0);
+    transition: 0,6s;
+    text-decoration: underline black;
+
+}
+
+.presentation_button_discover{
+    width: 180px;
+    height: 45px;
+    background-color: blanchedalmond;
+    border-radius: 50px;
+    border: solid #FF7217;
+}
+#discover{
+    margin: 12px 12px 12px 45px;
+}
